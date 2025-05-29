@@ -24,11 +24,11 @@ export class TicTacToe {
     return ' ';
   }
 
-  prinrtBoard() {
+  printBoard() {
     console.log(this.board.map(row => row.join('|')).join('\n'));
   }
 }
 
 const game = new TicTacToe();
 game.createBoard('X');
-game.prinrtBoard();
+game.printBoard();
