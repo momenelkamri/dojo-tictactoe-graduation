@@ -12,4 +12,17 @@ describe('Tic Tac Toe should', () => {
 
     expect(result).toStrictEqual(expectedOutput);
   });
+
+  test('create two-dimensional game board with one move for player X', () => {
+    let player = 'X';
+    const expectedOutput = [
+      ['X', ' ', ' '],
+      [' ', ' ', ' '],
+      [' ', ' ', ' '],
+    ];
+
+    let result = createBoard(player);
+
+    expect(result).toStrictEqual(expectedOutput);
+  });
 });
