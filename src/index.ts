@@ -17,6 +17,13 @@ export class TicTacToe {
     return this.board;
   }
 
+  winner(player: string): string {
+    if (player === 'X') {
+      return 'X';
+    }
+    return ' ';
+  }
+
   prinrtBoard() {
     console.log(this.board.map(row => row.join('|')).join('\n'));
   }
