@@ -12,5 +12,6 @@
 - The game ended in a draw
 
 🚧 WIP
+- return the winner
 
 🅿️ PARKED

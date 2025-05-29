@@ -29,4 +29,15 @@ describe('Tic Tac Toe should', () => {
 
     expect(result).toStrictEqual(expectedOutput);
   });
+
+  test('return player x as a winner', () => {
+    const player = 'X';
+    const winner = 'X';
+
+    const game = new TicTacToe();
+
+    let result = game.winner(player);
+
+    expect(result).toStrictEqual(winner);
+  });
 });
