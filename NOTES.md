@@ -1,5 +1,8 @@
 ✅ DONE
+– Game Board Creation
  - create two-dimensional array for the game board
+ - initialize the game board with x
+ 
 
 ⚠️ TODO
 - Player X won with a vertical line
@@ -8,8 +11,6 @@
 - The game ended in a draw
 
 🚧 WIP
-– Game Board Creation
- - initialize the game board with x
- 
+- show game board in console 
 
 🅿️ PARKED

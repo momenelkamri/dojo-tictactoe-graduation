@@ -13,3 +13,6 @@ export const createBoard = (player: string = ' ') => {
     [' ', ' ', ' '],
   ];
 };
+
+// console.log(createBoard());
+console.log(createBoard('X'));
