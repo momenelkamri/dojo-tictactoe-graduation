@@ -1,4 +1,4 @@
-import { createBoard } from '@/index';
+import { TicTacToe } from '@/index';
 
 describe('Tic Tac Toe should', () => {
   test('create two-dimensional game board', () => {
@@ -8,7 +8,9 @@ describe('Tic Tac Toe should', () => {
       [' ', ' ', ' '],
     ];
 
-    let result = createBoard();
+    const game = new TicTacToe();
+
+    const result = game.createBoard();
 
     expect(result).toStrictEqual(expectedOutput);
   });
@@ -21,7 +23,9 @@ describe('Tic Tac Toe should', () => {
       [' ', ' ', ' '],
     ];
 
-    let result = createBoard(player);
+    const game = new TicTacToe();
+
+    let result = game.createBoard(player);
 
     expect(result).toStrictEqual(expectedOutput);
   });

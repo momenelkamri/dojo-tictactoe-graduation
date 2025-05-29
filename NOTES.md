@@ -2,6 +2,7 @@
 – Game Board Creation
  - create two-dimensional array for the game board
  - initialize the game board with x
+- show game board in console 
  
 
 ⚠️ TODO
@@ -11,6 +12,5 @@
 - The game ended in a draw
 
 🚧 WIP
-- show game board in console 
 
 🅿️ PARKED
