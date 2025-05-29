@@ -1,4 +1,4 @@
-import {  } from '@/index';
+import { createBoard } from '@/index';
 
 describe('Tic Tac Toe should', () => {
   test('create two-dimensional game board', () => {
